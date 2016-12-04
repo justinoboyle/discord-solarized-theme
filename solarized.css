@@ -636,25 +636,25 @@ video, code, .image {
 .theme-dark code {
   color: #657b83;
   background-color: #fdf6e3 !important; }
-.theme-dark .flex-spacer, .theme-dark .title-wrap, .theme-dark .guild-header, .theme-dark .account, .theme-dark .guild-header header, .theme-dark .guild-header header:after, .theme-dark .account:after, .theme-dark .account:before, .theme-dark .dark.fade, .theme-dark .guild-channels, .theme-light .guild-header .theme-dark header, .theme-light .guild-header .theme-dark header:after, .theme-dark .typing {
+.theme-dark .flex-spacer, .theme-dark .title-wrap, .theme-dark .guild-header, .theme-dark .account, .theme-dark #voice-connection, .theme-dark .guild-header header, .theme-dark .guild-header header:after, .theme-dark .account:after, .theme-dark .account:before, .theme-dark .dark.fade, .theme-dark .guild-channels, .theme-light .guild-header .theme-dark header, .theme-light .guild-header .theme-dark header:after, .theme-dark .typing {
   background-color: #073642 !important; }
-.theme-dark .title-wrap, .theme-dark .guild-header, .theme-dark .account, .theme-dark .guild-header header, .theme-dark .guild-header header:after, .theme-dark .account:after, .theme-dark .account:before, .theme-dark .dark.fade, .theme-dark .guild-channels {
+.theme-dark .title-wrap, .theme-dark .guild-header, .theme-dark .account, .theme-dark #voice-connection, .theme-dark .guild-header header, .theme-dark .guild-header header:after, .theme-dark .account:after, .theme-dark .account:before, .theme-dark .dark.fade, .theme-dark .guild-channels {
   border-bottom-color: #073642 !important;
   border-top-color: #073642 !important;
   background-color: #073642 !important;
   box-shadow: none !important;
   border: 0 !important;
   outline: 0 !important; }
-  .theme-dark .title-wrap .title, .theme-dark .guild-header .title, .theme-dark .account .title, .theme-dark .guild-header header .title, .theme-dark .guild-header header:after .title, .theme-dark .account:after .title, .theme-dark .account:before .title, .theme-dark .dark.fade .title, .theme-dark .guild-channels .title {
+  .theme-dark .title-wrap .title, .theme-dark .guild-header .title, .theme-dark .account .title, .theme-dark #voice-connection .title, .theme-dark .guild-header header .title, .theme-dark .guild-header header:after .title, .theme-dark .account:after .title, .theme-dark .account:before .title, .theme-dark .dark.fade .title, .theme-dark .guild-channels .title {
     color: #586e75 !important;
     font-size: 18px; }
-  .theme-dark .title-wrap .channel-name, .theme-dark .guild-header .channel-name, .theme-dark .account .channel-name, .theme-dark .guild-header header .channel-name, .theme-dark .guild-header header:after .channel-name, .theme-dark .account:after .channel-name, .theme-dark .account:before .channel-name, .theme-dark .dark.fade .channel-name, .theme-dark .guild-channels .channel-name {
+  .theme-dark .title-wrap .channel-name, .theme-dark .guild-header .channel-name, .theme-dark .account .channel-name, .theme-dark #voice-connection .channel-name, .theme-dark .guild-header header .channel-name, .theme-dark .guild-header header:after .channel-name, .theme-dark .account:after .channel-name, .theme-dark .account:before .channel-name, .theme-dark .dark.fade .channel-name, .theme-dark .guild-channels .channel-name {
     color: #586e75 !important; }
-    .theme-dark .title-wrap .channel-name::before, .theme-dark .guild-header .channel-name::before, .theme-dark .account .channel-name::before, .theme-dark .guild-header header .channel-name::before, .theme-dark .guild-header header:after .channel-name::before, .theme-dark .account:after .channel-name::before, .theme-dark .account:before .channel-name::before, .theme-dark .dark.fade .channel-name::before, .theme-dark .guild-channels .channel-name::before {
+    .theme-dark .title-wrap .channel-name::before, .theme-dark .guild-header .channel-name::before, .theme-dark .account .channel-name::before, .theme-dark #voice-connection .channel-name::before, .theme-dark .guild-header header .channel-name::before, .theme-dark .guild-header header:after .channel-name::before, .theme-dark .account:after .channel-name::before, .theme-dark .account:before .channel-name::before, .theme-dark .dark.fade .channel-name::before, .theme-dark .guild-channels .channel-name::before {
       color: #657b83 !important; }
-  .theme-dark .title-wrap .topic, .theme-dark .guild-header .topic, .theme-dark .account .topic, .theme-dark .guild-header header .topic, .theme-dark .guild-header header:after .topic, .theme-dark .account:after .topic, .theme-dark .account:before .topic, .theme-dark .dark.fade .topic, .theme-dark .guild-channels .topic {
+  .theme-dark .title-wrap .topic, .theme-dark .guild-header .topic, .theme-dark .account .topic, .theme-dark #voice-connection .topic, .theme-dark .guild-header header .topic, .theme-dark .guild-header header:after .topic, .theme-dark .account:after .topic, .theme-dark .account:before .topic, .theme-dark .dark.fade .topic, .theme-dark .guild-channels .topic {
     color: #657b83 !important; }
-    .theme-dark .title-wrap .topic::before, .theme-dark .guild-header .topic::before, .theme-dark .account .topic::before, .theme-dark .guild-header header .topic::before, .theme-dark .guild-header header:after .topic::before, .theme-dark .account:after .topic::before, .theme-dark .account:before .topic::before, .theme-dark .dark.fade .topic::before, .theme-dark .guild-channels .topic::before {
+    .theme-dark .title-wrap .topic::before, .theme-dark .guild-header .topic::before, .theme-dark .account .topic::before, .theme-dark #voice-connection .topic::before, .theme-dark .guild-header header .topic::before, .theme-dark .guild-header header:after .topic::before, .theme-dark .account:after .topic::before, .theme-dark .account:before .topic::before, .theme-dark .dark.fade .topic::before, .theme-dark .guild-channels .topic::before {
       color: #657b83 !important; }
 .theme-dark .guild-header header:after {
   background-color: #073642 !important; }
@@ -875,25 +875,25 @@ video, code, .image {
 .theme-light code {
   color: #839496;
   background-color: #073642 !important; }
-.theme-light .flex-spacer, .theme-dark .guild-header .theme-light header, .theme-dark .guild-header .theme-light header:after, .theme-light .title-wrap, .theme-light .guild-header, .theme-light .account, .theme-light .guild-header header, .theme-light .guild-header header:after, .theme-light .account:after, .theme-light .account:before, .theme-light .dark.fade, .theme-light .guild-channels, .theme-light .typing {
+.theme-light .flex-spacer, .theme-dark .guild-header .theme-light header, .theme-dark .guild-header .theme-light header:after, .theme-light .title-wrap, .theme-light .guild-header, .theme-light .account, .theme-light #voice-connection, .theme-light .guild-header header, .theme-light .guild-header header:after, .theme-light .account:after, .theme-light .account:before, .theme-light .dark.fade, .theme-light .guild-channels, .theme-light .typing {
   background-color: #eee8d5 !important; }
-.theme-light .title-wrap, .theme-light .guild-header, .theme-light .account, .theme-light .guild-header header, .theme-light .guild-header header:after, .theme-light .account:after, .theme-light .account:before, .theme-light .dark.fade, .theme-light .guild-channels {
+.theme-light .title-wrap, .theme-light .guild-header, .theme-light .account, .theme-light #voice-connection, .theme-light .guild-header header, .theme-light .guild-header header:after, .theme-light .account:after, .theme-light .account:before, .theme-light .dark.fade, .theme-light .guild-channels {
   border-bottom-color: #eee8d5 !important;
   border-top-color: #eee8d5 !important;
   background-color: #eee8d5 !important;
   box-shadow: none !important;
   border: 0 !important;
   outline: 0 !important; }
-  .theme-light .title-wrap .title, .theme-light .guild-header .title, .theme-light .account .title, .theme-light .guild-header header .title, .theme-light .guild-header header:after .title, .theme-light .account:after .title, .theme-light .account:before .title, .theme-light .dark.fade .title, .theme-light .guild-channels .title {
+  .theme-light .title-wrap .title, .theme-light .guild-header .title, .theme-light .account .title, .theme-light #voice-connection .title, .theme-light .guild-header header .title, .theme-light .guild-header header:after .title, .theme-light .account:after .title, .theme-light .account:before .title, .theme-light .dark.fade .title, .theme-light .guild-channels .title {
     color: #93a1a1 !important;
     font-size: 18px; }
-  .theme-light .title-wrap .channel-name, .theme-light .guild-header .channel-name, .theme-light .account .channel-name, .theme-light .guild-header header .channel-name, .theme-light .guild-header header:after .channel-name, .theme-light .account:after .channel-name, .theme-light .account:before .channel-name, .theme-light .dark.fade .channel-name, .theme-light .guild-channels .channel-name {
+  .theme-light .title-wrap .channel-name, .theme-light .guild-header .channel-name, .theme-light .account .channel-name, .theme-light #voice-connection .channel-name, .theme-light .guild-header header .channel-name, .theme-light .guild-header header:after .channel-name, .theme-light .account:after .channel-name, .theme-light .account:before .channel-name, .theme-light .dark.fade .channel-name, .theme-light .guild-channels .channel-name {
     color: #93a1a1 !important; }
-    .theme-light .title-wrap .channel-name::before, .theme-light .guild-header .channel-name::before, .theme-light .account .channel-name::before, .theme-light .guild-header header .channel-name::before, .theme-light .guild-header header:after .channel-name::before, .theme-light .account:after .channel-name::before, .theme-light .account:before .channel-name::before, .theme-light .dark.fade .channel-name::before, .theme-light .guild-channels .channel-name::before {
+    .theme-light .title-wrap .channel-name::before, .theme-light .guild-header .channel-name::before, .theme-light .account .channel-name::before, .theme-light #voice-connection .channel-name::before, .theme-light .guild-header header .channel-name::before, .theme-light .guild-header header:after .channel-name::before, .theme-light .account:after .channel-name::before, .theme-light .account:before .channel-name::before, .theme-light .dark.fade .channel-name::before, .theme-light .guild-channels .channel-name::before {
       color: #839496 !important; }
-  .theme-light .title-wrap .topic, .theme-light .guild-header .topic, .theme-light .account .topic, .theme-light .guild-header header .topic, .theme-light .guild-header header:after .topic, .theme-light .account:after .topic, .theme-light .account:before .topic, .theme-light .dark.fade .topic, .theme-light .guild-channels .topic {
+  .theme-light .title-wrap .topic, .theme-light .guild-header .topic, .theme-light .account .topic, .theme-light #voice-connection .topic, .theme-light .guild-header header .topic, .theme-light .guild-header header:after .topic, .theme-light .account:after .topic, .theme-light .account:before .topic, .theme-light .dark.fade .topic, .theme-light .guild-channels .topic {
     color: #839496 !important; }
-    .theme-light .title-wrap .topic::before, .theme-light .guild-header .topic::before, .theme-light .account .topic::before, .theme-light .guild-header header .topic::before, .theme-light .guild-header header:after .topic::before, .theme-light .account:after .topic::before, .theme-light .account:before .topic::before, .theme-light .dark.fade .topic::before, .theme-light .guild-channels .topic::before {
+    .theme-light .title-wrap .topic::before, .theme-light .guild-header .topic::before, .theme-light .account .topic::before, .theme-light #voice-connection .topic::before, .theme-light .guild-header header .topic::before, .theme-light .guild-header header:after .topic::before, .theme-light .account:after .topic::before, .theme-light .account:before .topic::before, .theme-light .dark.fade .topic::before, .theme-light .guild-channels .topic::before {
       color: #839496 !important; }
 .theme-light .guild-header header:after {
   background-color: #eee8d5 !important; }
