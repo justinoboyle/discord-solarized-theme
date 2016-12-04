@@ -17,7 +17,7 @@ $light_base1:		#586e75
 $light_base2:		#073642
 $light_base3:		#002b36
 
-$dark_base03:		$light_base3
+$dark_base03:		$light_base3 
 $dark_base02:		$light_base2
 $dark_base01:		$light_base1
 $dark_base00:		$light_base0
@@ -28,7 +28,7 @@ $dark_base3:		$light_base03
 
 //fonts
 //if you change font you probably have to manually have to change font sizes manually
-$font_0: "Source Code Pro for Powerline"
+$font_0: "Menlo"
 
 //other
 //change this to 0 if you're annoyed by the added round borders
@@ -694,8 +694,13 @@ video, code, .image
 			background-color: $Y_base03 !important
 		.flex-spacer, .typing
 			background-color: $X_base02 !important
-		.title-wrap
+		.title-wrap, .guild-header, .account, .guild-header header, .guild-header header:after, .account:after, .account:before, .dark.fade, .guild-channels
 			border-bottom-color: $X_base02 !important
+			border-top-color: $X_base02 !important
+			background-color: $X_base02 !important
+			box-shadow: none !important
+			border: 0 !important
+			outline: 0 !important
 			@extend .flex-spacer
 			.title
 				color: $X_base01 !important
@@ -708,6 +713,8 @@ video, code, .image
 				color: $X_base00 !important
 				&::before
 					color: $X_base00 !important
+		.guild-header header:after 
+			background-color: $X_base02 !important
 		.channel-members
 			.member:hover, .member:focus, .member.popout-open
 				background: linear-gradient(to right, $X_base01 85%, $X_base02)
@@ -744,7 +751,7 @@ video, code, .image
 			background-color: $X_base03
 			.user-name
 				color: $X_base00
-		.channel-members-wrap
+		.channel-members-wrap, .private-channels, .channels-wrap, .channel-text.selected
 			h2
 				color: $X_base01 !important
 			.scroller
@@ -759,7 +766,21 @@ video, code, .image
 				background-color: $X_base02 !important
 		.embed-description
 			color: $X_base01 !important
-		.messages-wrapper .scroller-wrap,
+		.channel.selected, .channel:hover, .member:hover, .member.selected
+			background: linear-gradient(to right, $X_base03 85%, rgba(0,0,0,0)) !important
+		.btn
+			background-color: $X_base03 !important
+			border: none !important
+			box-shadow: none !important
+		.btn-group
+			border: none !important
+		.theme-dark.chat
+			border-top: none !important
+		.guilds
+			background-color: $X_base03 !important
+		.guild-separator:after, .friends-icon
+			background-color: $X_base02 !important
+		.messages-wrapper .scroller-wrap, .scroller.guilds,
 		.friends-table .scroller-wrap, .messages-popout-wrap .scroller-wrap, .channel-members-wrap .scroller-wrap
 			::-webkit-scrollbar-thumb
 				background-color: $X_base03
